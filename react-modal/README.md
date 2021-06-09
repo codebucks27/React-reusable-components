@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+# How to create efficient and interactive Modal component in React using React Portals from scratch😇
+
+This repository contains code for Modal component in ReactJS.
+
+View Demo:
+https://react-reusable-components.vercel.app/
+
+If you want to learn how to create it please follow below tutorial: <br />
+
+https://youtu.be/5aG8peJsBVg
+
+### Images of Component:
+![Codebucks](https://github.com/codebucks27/React-reusable-components/blob/master/react-modal/Modal.png)
+
+
+### Resources Used in This Project
+
+Background : https://trianglify.io/ <br />
+
+Svg Icons : https://fontawesome.com/ <br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
