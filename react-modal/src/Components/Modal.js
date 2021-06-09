@@ -25,7 +25,7 @@ const Modal = ({ show, close, title, children }) => {
           </footer>
         </div>
       </div>
-      )
+      
     </>,
     document.getElementById("modal")
   );
