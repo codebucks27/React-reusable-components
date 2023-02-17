@@ -9,6 +9,9 @@ If you want to learn how to create it please follow below tutorial: <br />
 
 https://youtu.be/5aG8peJsBVg
 
+As per the official documentation of [CRA](https://create-react-app.dev/docs/adding-a-sass-stylesheet/),
+> **Note:** LibSass and the packages built on top of it, including Node Sass, are deprecated. If you're a user of Node Sass, you can migrate to Dart Sass by replacing node-sass in your package.json file with sass.
+
 ### Images of Component:
 ![Codebucks](https://github.com/codebucks27/React-reusable-components/blob/master/react-modal/Modal.png)
 
