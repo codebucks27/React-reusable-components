@@ -1,9 +1,9 @@
-import ReactDom from "react-dom";
 import "./modal.scss";
 import Close from "../times-solid.svg";
+import { createPortal } from "react-dom";
 
 const Modal = ({ show, close, title, children }) => {
-  return ReactDom.createPortal(
+  return createPortal(
     <>
       <div
         className={`modalContainer ${show ? "show" : ""} `}
@@ -19,13 +19,12 @@ const Modal = ({ show, close, title, children }) => {
           <main className="modal_content">{children}</main>
           <footer className="modal_footer">
             <button className="modal-close" onClick={() => close()}>
-              Cacel
+              Cancel
             </button>
             <button className="submit">Submit</button>
           </footer>
         </div>
       </div>
-      
     </>,
     document.getElementById("modal")
   );
